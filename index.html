@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#111b27">
-  <meta name="description" content="Página profissional de Mateus Alexandre Ciantra — gestor certificado, diretor de gestão e empreendedor.">
+  <meta name="theme-color" content="#101923">
+  <meta name="description" content="Página profissional de Mateus Alexandre Ciantra — diretor de gestão, gestor certificado e empreendedor.">
   <meta property="og:title" content="Mateus Alexandre Ciantra | Gestão e Empreendedorismo">
   <meta property="og:description" content="Gestão, risco e decisões com responsabilidade.">
   <meta property="og:type" content="website">
@@ -35,10 +35,10 @@
   <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
 
   <header class="site-header" id="topo">
-    <div class="container nav-wrap">
+    <div class="container header-inner">
       <a class="brand" href="#topo" aria-label="Início">
         <span class="brand-mark">M</span>
-        <span>Mateus Alexandre</span>
+        <span class="brand-text">Mateus Alexandre</span>
       </a>
 
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="menu">
@@ -48,93 +48,111 @@
 
       <nav class="site-nav" id="menu" aria-label="Navegação principal">
         <a href="#sobre">Sobre</a>
-        <a href="#experiencia">Experiência</a>
+        <a href="#trajetoria">Trajetória</a>
         <a href="#credenciais">Credenciais</a>
-        <a href="#contato">Contato</a>
+        <a class="contact-link" href="#contato">Contato</a>
       </nav>
     </div>
   </header>
 
   <main id="conteudo">
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
       <div class="container hero-grid">
-        <div class="hero-copy">
+        <div class="hero-copy reveal">
           <p class="eyebrow">Gestão · Estratégia · Empreendedorismo</p>
-          <h1>Mateus Alexandre Ciantra</h1>
-          <p class="hero-title">Diretor de Gestão</p>
+          <h1 id="hero-title">Mateus Alexandre Ciantra</h1>
+          <p class="hero-role">Diretor de Gestão</p>
           <p class="hero-lead">
             Gestor certificado e empreendedor, com atuação orientada por risco,
             estrutura e responsabilidade na tomada de decisão.
           </p>
           <div class="hero-actions">
-            <a class="button button-primary" href="mailto:mateusalexandreciantra@gmail.com">Entrar em contato</a>
-            <a class="button button-secondary" href="https://www.linkedin.com/in/mateus-alexandre-/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="button primary" href="mailto:mateusalexandreciantra@gmail.com">Entrar em contato</a>
+            <a class="button secondary" href="https://www.linkedin.com/in/mateus-alexandre-/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           </div>
         </div>
 
-        <figure class="hero-photo">
+        <figure class="hero-image reveal">
           <img src="assets/mateus-retrato.webp" width="900" height="1350" alt="Retrato profissional de Mateus Alexandre Ciantra" fetchpriority="high">
         </figure>
       </div>
     </section>
 
-    <section class="intro section" id="sobre">
-      <div class="container intro-grid">
-        <figure class="intro-photo reveal">
-          <img src="assets/mateus-casual.webp" width="900" height="1350" alt="Mateus Alexandre Ciantra em retrato profissional" loading="lazy">
+    <section class="profile section" id="sobre">
+      <div class="container profile-grid">
+        <figure class="profile-image reveal">
+          <img src="assets/mateus-casual.webp" width="900" height="1350" alt="Mateus Alexandre Ciantra em retrato profissional com camisa escura" loading="lazy">
         </figure>
 
-        <div class="intro-copy reveal">
+        <div class="profile-copy reveal">
           <p class="section-label">Sobre</p>
-          <h2>Convicção antes do título.</h2>
+          <h2>Experiência prática transformada em critério.</h2>
           <p class="lead">
             Uma trajetória construída entre contabilidade, serviços financeiros e gestão,
-            transformando experiência prática em critério para decidir.
+            com mentalidade de dono e atenção permanente ao risco.
           </p>
           <p>
-            Sua atuação combina mentalidade de dono, atenção ao risco e busca por estruturas
-            sustentáveis. O foco está em processos claros, decisões responsáveis e visão de longo prazo.
+            Sua atuação combina disciplina, leitura de contexto e busca por estruturas sustentáveis.
+            O foco está em processos claros, decisões responsáveis e visão de longo prazo.
           </p>
-          <blockquote>
-            “Bons gestores não prometem. Estruturam. Não seguem moda. Leem ciclos.”
-          </blockquote>
+
+          <div class="principles" aria-label="Princípios de atuação">
+            <div><span>01</span><strong>Risco antes da promessa</strong></div>
+            <div><span>02</span><strong>Estrutura antes do improviso</strong></div>
+            <div><span>03</span><strong>Responsabilidade como fundamento</strong></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="experience section" id="experiencia">
-      <div class="container two-column">
-        <div class="section-heading reveal">
-          <p class="section-label">Experiência</p>
-          <h2>Trajetória profissional</h2>
-          <p>Seleção das experiências mais relevantes para a atuação atual.</p>
+    <section class="editorial" aria-label="Princípio de gestão">
+      <div class="editorial-media" aria-hidden="true"></div>
+      <div class="container editorial-inner">
+        <div class="editorial-copy reveal">
+          <p class="section-label light">Princípio</p>
+          <blockquote>
+            “Bons gestores não prometem. Estruturam. Não seguem moda. Leem ciclos.”
+          </blockquote>
+          <p>
+            Capital exige técnica, disciplina e responsabilidade para sustentar cada decisão.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="career section" id="trajetoria">
+      <div class="container career-grid">
+        <div class="section-intro reveal">
+          <p class="section-label">Trajetória</p>
+          <h2>Experiências relevantes</h2>
+          <p>Atuação com progressão entre operação financeira, relacionamento e gestão.</p>
         </div>
 
         <div class="timeline">
           <article class="timeline-item reveal">
             <time>2025 — atual</time>
             <div>
-              <span>Nidara Capital</span>
+              <p>Nidara Capital</p>
               <h3>Diretor de Gestão</h3>
-              <p>São Paulo, Brasil</p>
+              <span>São Paulo, Brasil</span>
             </div>
           </article>
 
           <article class="timeline-item reveal">
             <time>2023 — 2025</time>
             <div>
-              <span>Grupo Unipetro</span>
+              <p>Grupo Unipetro</p>
               <h3>Assistente Financeiro Regional</h3>
-              <p>Tupã, São Paulo</p>
+              <span>Tupã, São Paulo</span>
             </div>
           </article>
 
           <article class="timeline-item reveal">
             <time>2023</time>
             <div>
-              <span>Santander Brasil</span>
+              <p>Santander Brasil</p>
               <h3>Especialista Clientes e Serviços II</h3>
-              <p>Quatá, São Paulo</p>
+              <span>Quatá, São Paulo</span>
             </div>
           </article>
         </div>
@@ -142,13 +160,10 @@
     </section>
 
     <section class="credentials section" id="credenciais">
-      <div class="container credential-layout">
-        <div class="credential-copy reveal">
+      <div class="container credentials-grid">
+        <div class="credentials-main reveal">
           <p class="section-label">Credenciais</p>
-          <h2>Formação técnica e profissional</h2>
-          <p>
-            Certificações ligadas à gestão de recursos, investimentos e contabilidade.
-          </p>
+          <h2>Base técnica em gestão e contabilidade.</h2>
           <div class="credential-list" aria-label="Certificações profissionais">
             <span>Administrador de Carteiras</span>
             <span>CGE</span>
@@ -156,39 +171,36 @@
             <span>CPA-20</span>
             <span>CRC-SP</span>
           </div>
-
-          <div class="education">
-            <article>
-              <time>2016 — 2019</time>
-              <div>
-                <h3>Ciências Contábeis</h3>
-                <p>Faculdades Faccat</p>
-              </div>
-            </article>
-            <article>
-              <time>2014 — 2015</time>
-              <div>
-                <h3>Técnico em Contabilidade</h3>
-                <p>ETEC — Escola Técnica Estadual de São Paulo</p>
-              </div>
-            </article>
-          </div>
         </div>
 
-        <figure class="credential-photo reveal">
-          <img src="assets/mateus-editorial.webp" width="900" height="1350" alt="Mateus Alexandre Ciantra em retrato com terno azul" loading="lazy">
-        </figure>
+        <div class="education reveal">
+          <p class="section-label">Formação</p>
+          <article>
+            <time>2016 — 2019</time>
+            <div>
+              <h3>Ciências Contábeis</h3>
+              <p>Faculdades Faccat</p>
+            </div>
+          </article>
+          <article>
+            <time>2014 — 2015</time>
+            <div>
+              <h3>Técnico em Contabilidade</h3>
+              <p>ETEC — Escola Técnica Estadual de São Paulo</p>
+            </div>
+          </article>
+        </div>
       </div>
     </section>
 
     <section class="contact section" id="contato">
-      <div class="container contact-card reveal">
+      <div class="container contact-panel reveal">
         <div>
-          <p class="section-label">Contato</p>
+          <p class="section-label light">Contato</p>
           <h2>Conexões profissionais</h2>
           <p>Para projetos, oportunidades e conversas profissionais.</p>
         </div>
-        <div class="contact-links">
+        <div class="contact-list">
           <a href="mailto:mateusalexandreciantra@gmail.com">
             <span>E-mail</span>
             <strong>mateusalexandreciantra@gmail.com</strong>
@@ -203,7 +215,7 @@
   </main>
 
   <footer>
-    <div class="container footer-grid">
+    <div class="container footer-inner">
       <div>
         <strong>Mateus Alexandre Ciantra</strong>
         <span>Gestão · Estratégia · Empreendedorismo</span>
